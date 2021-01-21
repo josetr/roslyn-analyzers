@@ -170,6 +170,15 @@ csharp_space_between_square_brackets = false
 
 # CS0618: Type or member is obsolete
 dotnet_diagnostic.CS0618.severity = none
+
+# CA1307: Specify StringComparison for clarity
+# This is triggering on methods that do not support the overload
+dotnet_diagnostic.CA1307.severity = none
+
+# CA2249: Consider using String.Contains instead of String.IndexOf
+# This is triggering on methods that do not support the overload
+dotnet_diagnostic.CA2249.severity = none
+
 ### Visual Basic code style settings ###
 [*.vb]
 
